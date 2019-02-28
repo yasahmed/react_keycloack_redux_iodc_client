@@ -18,8 +18,8 @@ const config = {
         exclude: /node_modules/,
       },
       {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.(scss|css)$/,
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.(png|jpg|gif)$/i,

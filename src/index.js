@@ -2,7 +2,7 @@ import React, { lazy } from "react";
 import ReactDOM from "react-dom";
 import { hot } from "react-hot-loader";
 import { Provider } from "react-redux";
-import "@assets/sass/styles.scss";
+import "@assets/css/style.css";
 import userManager from "@services/Auth";
 import appConfig from "@services/Auth/auth-config";
 import MainRouter from "@routers";
