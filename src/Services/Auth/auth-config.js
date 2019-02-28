@@ -6,7 +6,7 @@ const appConfig = {
     post_logout_redirect_uri: "http://localhost:3000/",
     response_type: "token id_token",
     scope: "openid profile",
-    silent_redirect_uri: "http://localhost:3000/silent-renew.html",
+    silent_redirect_uri: "http://localhost:3000/cilent-renew.html",
     automaticSilentRenew: true
   }
 };
